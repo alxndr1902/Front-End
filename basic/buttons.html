@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button in HTML</title>
+</head>
+<body>
+    <button onclick="doSomething()" style="font-size: 25px; background-color: lightblue; color: green; border-radius: 10px;">Click Me</button>
+    <p id="greeting">hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "GoodBye";
+        }
+    </script>
+</body>
+</html>
