@@ -1,0 +1,17 @@
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+p::selection {
+    color: white;
+    background-color: black;
+}
+
+#fruit li::before {
+    content: "✓";
+}

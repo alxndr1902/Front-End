@@ -1,0 +1,38 @@
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+}
+@keyframes slideLeft {
+    from{transform: translateX(300%);}
+}
+@keyframes slideRight {
+    to{transform: translateX(300%);}
+}
+@keyframes slideUp {
+    from{transform: translateY(300%);}
+}
+@keyframes slideDown {
+    to{transform: translateY(300%);}
+}
+@keyframes rotate {
+    25%{transform: rotateZ(360deg)}
+}
+@keyframes grow {
+    50%{transform: scale(2, 2);}
+}
+@keyframes shrink {
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes fade {
+    100%{opacity: 1;}
+}
+@keyframes colorChange {
+    0%{background-color: red;}
+    25%{background-color: blue;}
+}
